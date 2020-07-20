@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout = "@layout/titlebar"></include>
+
+    <Button
+        android:id="@+id/bt_picasso_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本方法使用" />
+    
+    <Button
+        android:id="@+id/bt_picasso_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listView中加载网络图片" />
+
+    <Button
+        android:id="@+id/bt_picasso_tranformations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片变换" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>cro
+</LinearLayout>

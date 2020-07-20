@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <string name="message">消息</string>
+    <string name="home">主页</string>
+    <string name="user">个人中心</string>
+</resources>
